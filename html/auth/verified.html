@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets//images/favicon.ico">
+
+    <title>AISOC | Verified</title>
+    <!-- Custom CSS -->
+    <link href="../../dist/css/style.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../dist/css/custom/custom_style_login.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper background">
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <div class="preloader">
+            <div class="lds-ripple">
+                <div class="lds-pos"></div>
+                <div class="lds-pos"></div>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- Preloader - style you can find in spinners.css -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- Login box.scss -->
+        <!-- ============================================================== -->
+
+        <!-- Info Header Modal -->
+        <div id="info-header-modal" class="modal fade" tabindex="-1" role="dialog"
+            aria-labelledby="info-header-modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header bg-info space-s">
+                        <h4 class="modal-title strong" id="info-header-modalLabel">Password Policy</h4>
+                        <button type="button" class="close black" data-dismiss="modal" aria-hidden="true">×</button>
+                    </div>
+                    <div class="modal-body space-s">
+                        <h5 class="mt-0"> <i class="fa fa-info-circle golden" aria-hidden="true"></i> <strong
+                                class="strong-medium">We are very strict about our password policy. Read through our
+                                policy to
+                                maintain our
+                                password policy to continuously use our services without interruption.</strong>
+                        </h5>
+                        <ul>
+                            <li>1. Password <strong class="strong">MUST<strong> be changed in every 3 months.</li>
+                            <li>2. Password <strong class="strong">MUST<strong> contain at least one number.</li>
+                            <li>3. Password <strong class="strong">MUST<strong> contain one uppercase and one lowercase
+                                        number.</li>
+                            <li>4. Password <strong class="strong">MUST<strong> contain one special character (@, $, %,
+                                        ^, !).</li>
+                            <li>5. Password <strong class="strong">MUST<strong> be at least 8 character long.</li>
+                        </ul>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4 class="strong-medium"> <i class="fas fa-check-circle green"></i> Example of strong
+                                    password
+                                </h4>
+                                <ul>
+                                    <li>1. 4-p:kLV*>ZL9wu_`
+                                    </li>
+                                    <li>2. 8zKJ(uNLJ#$t5h/%
+                                    </li>
+                                    <li>3. M3[$(2^$rqu_e~`_
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-12">
+                                <h4 class="strong-medium"> <i class="fas fa-ban red"></i> Example of bad
+                                    password</h4>
+                                <ul>
+                                    <li>1. abc123
+                                    </li>
+                                    <li>2. 123456
+                                    </li>
+                                    <li>3. myemail
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info custom-btn-info" data-dismiss="modal">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="auth-wrapper center">
+            <div class="col-lg-12 col-md-10 auth-box bg-white row">
+                <div class="col-lg-10">
+                    <!-- Alert Modal -->
+                    <div class="alert alert-danger alert-dismissible space-l" role="alert">
+                        <i class="fas fa-ban"></i>
+                        <button type="button" class="close white" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <!-- Info header modal -->
+
+                        Password Doesn't Match Our <a href="#" data-toggle="modal" data-target="#info-header-modal"
+                            class="underline" id="reset"><u class="white">Password
+                                Policy</u></a>
+                    </div>
+
+                    <!-- Success Modal -->
+                    <div class="alert alert-success dismiss space-l" role="alert">
+                        <button type="button" class="close white" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <i class="fas fa-check-circle"></i>
+                        Code Verified!
+                    </div>
+
+                    <div class="p-3 space-xxl">
+                        <!-- Top Img -->
+                        <div class="text-center">
+                            <img src="../../assets/images/custom/robi_logo.svg" width="30%" alt="Robi Axiata Ltd.">
+                        </div>
+                        <!-- Form -->
+                        <form class="mt-5">
+                            <div class="row">
+                                <!-- EMAIL -->
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label class="label" for="new_password">New Password</label>
+                                        <input class="input-bg form-control btn-rounded" id="new_password"
+                                            type="password" placeholder="* * * * * * * * *">
+
+                                        <label class="label" for="confirm_password">Confirm Password</label>
+                                        <input class="input-bg form-control btn-rounded" id="confirm_password"
+                                            type="email" placeholder="* * * * * * * * *">
+                                        <!-- Reset Password -->
+                                    </div>
+                                </div>
+                                <!-- Login -->
+                                <div class="col-lg-12 space-up-l text-center">
+                                    <button type="submit" class="btn btn-block btn-rounded">Update Password</button>
+
+                                </div>
+                                <!-- Reset Password -->
+                                <div class="col-lg-12 text-center mt-2 reset-bg" for="reset">
+                                    <a href="#" data-toggle="modal" data-target="#info-header-modal" class="underline"
+                                        id="reset"><u class="red">Password Policy</u></a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-6 space-xxl center">
+                    <img src="../../assets/images/custom/ai_soc_logo.svg" alt="AISOC, Developed by Reddot Digital Limited">
+                </div>
+                <!--==============================================================-->
+                <!-- Login box.scss -->
+                <!-- ============================================================== -->
+            </div>
+            <!-- ============================================================== -->
+            <!-- All Required js -->
+            <!-- ============================================================== -->
+            <script src="../../assets/libs/jquery/dist/jquery.min.js "></script>
+            <!-- Bootstrap tether Core JavaScript -->
+            <script src="../../assets/libs/popper.js/dist/umd/popper.min.js "></script>
+            <script src="../../assets/libs/bootstrap/dist/js/bootstrap.min.js "></script>
+
+            <script src="../../dist/css/icons/fontawesome-free/js/all.js"></script>
+
+            <script src="../../dist/css/icons/fontawesome-free/js/all.js"></script>
+
+
+            <!-- ============================================================== -->
+            <!-- This page plugin js -->
+            <!-- ============================================================== -->
+            <script>
+                $(".preloader ").fadeOut();
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,302 @@
+:root {
+    --red: #E32823;
+    --white: #FFFFFF;
+    --black: #000000;
+    --offwhite: #F4F5F6;
+    --accent-green: #67E0BA;
+    --accent-gold: #D8B4A0;
+    --accent-purple: #8F2D56;
+    --text-color: #747170;
+    --icon-color: #A4A4A4;
+    --table-color: #FF4F70;
+    --shadow-dark: #D9D9D9;
+    --shadow-light: #FFFFFF;
+
+    --red-hover: #bd231d;
+    --accent-green-hover: #58be9e;
+    --accent-gold-hover: #ac8f7f;
+    --accent-purple-hover: #722243;
+
+    --large: 1.5em !important;
+    --medium: 1.2em !important;
+    --regular: 1.0em !important;
+
+}
+
+body {
+    color: var(--text-color) !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.custom-btn-info {
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+.strong {
+    font-weight: 800 !important;
+}
+
+.strong-medium {
+    font-weight: 600 !important;
+}
+
+.red {
+    color: var(--red) !important;
+}
+
+.white {
+    color: var(--white) !important;
+}
+
+.black {
+    color: var(--black) !important;
+}
+
+.golden {
+    color: var(--accent-gold) !important;
+}
+
+.green {
+    color: var(--accent-green) !important;
+}
+
+.modal-header {
+    font-weight: 800 !important;
+}
+
+.bg-info {
+    color: var(--text-color) !important;
+    font-weight: 800 !important;
+    background: var(--white) !important;
+}
+
+.alert-danger {
+    font-weight: 600;
+    color: var(--white) !important;
+    background: var(--red) !important;
+}
+
+.alert-success {
+    font-weight: 600;
+    color: var(--white) !important;
+    background: var(--accent-green) !important;
+}
+
+.background {
+    background: var(--offwhite) !important;
+}
+
+/* Login Page */
+.label {
+    font-size: var(--medium) !important;
+    font-weight: 400 !important;
+}
+
+.input-bg {
+    font-size: var(--medium) !important;
+    transition-property: background-color, border;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.input-bg:hover {
+    background-color: var(--offwhite) !important;
+}
+
+.input-bg:focus {
+    border: solid 1px var(--red);
+}
+
+.btn {
+    color: var(--white);
+    font-size: var(--medium) !important;
+    background-color: var(--red);
+    transition-property: color, background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.6s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--red-hover) !important;
+}
+
+.reset-bg {
+    color: var(--text-color) !important;
+    font-size: var(--medium) !;
+    transition-property: font-weight, color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+}
+
+.reset-bg:hover {
+    font-weight: 600 !important;
+    color: var(--black) !important;
+}
+
+.bg-white {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Spaces */
+
+.space-xxl {
+    margin: 50px !important;
+}
+
+.space-xl {
+    margin: 40px !important;
+}
+
+.space-l {
+    margin: 30px !important;
+}
+
+.space-m {
+    margin: 20px !important;
+}
+
+.space-s {
+    margin: 10px !important;
+}
+
+.space-up-xxl {
+    margin-top: 50px !important;
+}
+
+.space-up-xl {
+    margin-top: 40px !important;
+}
+
+.space-up-l {
+    margin-top: 30px !important;
+}
+
+.space-up-m {
+    margin-top: 20px !important;
+}
+
+.space-up-s {
+    margin-top: 10px !important;
+}
+
+.space-down-xxl {
+    margin-bottom: 50px !important;
+}
+
+.space-down-xl {
+    margin-bottom: 40px !important;
+}
+
+.space-down-l {
+    margin-bottom: 30px !important;
+}
+
+.space-down-m {
+    margin-bottom: 20px !important;
+}
+
+.space-down-s {
+    margin-bottom: 10px !important;
+}
+
+/* Alignments */
+.center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Login */
+
+
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Black'), local("Montserrat-Black"), url("../fonts/black.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Black-Italic';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Black Italic'), local("Montserrat-Black-Italic"), url("../fonts/black_italic.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Bold'), local("Montserrat-Bold"), url("../fonts/bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold-Italic';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Bold Italic'), local("Montserrat-Bold-Italic"), url("../fonts/bold_italic.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Extra-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Extra Bold'), local("Montserrat-Extra-Bold"), url("../fonts/extra_bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Extra-Light';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Extra Light'), local("Montserrat-Extra-Light"), url("../fonts/extra_light.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Light'), local("Montserrat-Light"), url("../fonts/light.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Medium'), local("Montserrat-Medium"), url("../fonts/medium.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Regular'), local("Montserrat-Regular"), url("../fonts/regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Semi-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Semi Bold'), local("Montserrat-Semi-Bold"), url("../fonts/semi_bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Thin'), local("Montserrat-Thin"), url("../fonts/thin.ttf") format('ttf');
+}

@@ -1,0 +1,502 @@
+/* Color */
+:root {
+    --red: #E32823;
+    --white: #FFFFFF;
+    --black: #000000;
+    --offwhite: #F4F5F6;
+    --lightoffwhite: #f8f8f8;
+    --accent-green: #67E0BA;
+    --accent-gold: #D8B4A0;
+    --accent-purple: #8F2D56;
+    --text-color: #747170;
+    --icon-color: #A4A4A4;
+    --table-color: #FF4F70;
+    --shadow-dark: #D9D9D9;
+    --shadow-light: #FFFFFF;
+
+    --red-hover: #bd231d;
+    --accent-green-hover: #58be9e;
+    --accent-gold-hover: #ac8f7f;
+    --accent-purple-hover: #722243;
+
+    --large: 1.5em !important;
+    --small: 0.8em !important;
+    --medium: 1.2em !important;
+    --regular: 1.0em !important;
+}
+
+/* Initialization */
+
+* {
+    /* color: var(--text-color) !important; */
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.morris {
+    font-weight: 800 !important;
+    color: var(--text-color) !important;
+}
+
+.strong {
+    font-weight: 800 !important;
+}
+
+.strong-medium {
+    font-weight: 600 !important;
+}
+
+.red {
+    color: var(--red) !important;
+}
+
+.red-bg {
+    transition: all 0.6s ease-in-out 0s !important;
+    background: var(--red) !important;
+    color: var(--white) !important;
+}
+
+.red-bg:hover {
+    background: var(--red-hover) !important;
+}
+
+.green-bg {
+    transition: all 0.6s ease-in-out 0s !important;
+    background: var(--accent-green) !important;
+    color: var(--white) !important;
+}
+
+.green-bg:hover {
+    background: var(--accent-green-hover) !important;
+}
+
+.golden-bg {
+    transition: all 0.6s ease-in-out 0s !important;
+    background: var(--accent-gold) !important;
+    color: var(--white) !important;
+}
+
+.golden-bg:hover {
+    background: var(--accent-gold-hover) !important;
+}
+
+
+.shadow-bg {
+    background: var(--shadow-dark) !important;
+}
+
+.offwhite-bg {
+    background: var(--offwhite) !important;
+}
+
+.lightoffwhite-bg {
+    background: var(--lightoffwhite) !important;
+}
+
+.white {
+    color: var(--white) !important;
+}
+
+.black {
+    color: var(--black) !important;
+}
+
+.golden {
+    color: var(--accent-gold) !important;
+}
+
+.green {
+    color: var(--accent-green) !important;
+}
+
+.purple {
+    color: var(--accent-purple) !important;
+}
+
+.modal-header {
+    font-weight: 800 !important;
+}
+
+.bg-info {
+    color: var(--text-color) !important;
+    font-weight: 800 !important;
+    background: var(--white) !important;
+}
+
+.alert-danger {
+    font-weight: 600;
+    color: var(--white) !important;
+    background: var(--red) !important;
+}
+
+.alert-success {
+    font-weight: 600;
+    color: var(--white) !important;
+    background: var(--accent-green) !important;
+}
+
+.background {
+    background: var(--offwhite) !important;
+}
+
+.bold {
+    font-weight: 600 !important;
+}
+
+.extra-bold {
+    font-weight: 800 !important;
+}
+
+
+/* Navigation Menu */
+.sidebar-nav #sidebarnav .sidebar-item.selected>.sidebar-link {
+    font-weight: 300;
+    border-radius: 0 60px 60px 0;
+    color: var(--white) !important;
+    background: linear-gradient(to right, var(--red), var(--accent-purple));
+    box-shadow: 0 7px 12px 0 var(--shadow-dark);
+    opacity: 1;
+}
+
+
+
+
+/* Margin, Padding, Alignment */
+/* Margin */
+.space-xxl {
+    margin: 50px !important;
+}
+
+.space-xl {
+    margin: 40px !important;
+}
+
+.space-l {
+    margin: 30px !important;
+}
+
+.space-m {
+    margin: 20px !important;
+}
+
+.space-s {
+    margin: 10px !important;
+}
+
+.space-xs {
+    margin: 5px !important;
+}
+
+.space-up-xxl {
+    margin-top: 50px !important;
+}
+
+.space-up-xl {
+    margin-top: 40px !important;
+}
+
+.space-up-l {
+    margin-top: 30px !important;
+}
+
+.space-up-m {
+    margin-top: 20px !important;
+}
+
+.space-up-s {
+    margin-top: 10px !important;
+}
+
+/* Padding */
+.padding-up-xxl {
+    padding-top: 50px !important;
+}
+
+.padding-up-xl {
+    padding-top: 40px !important;
+}
+
+.padding-up-l {
+    padding-top: 30px !important;
+}
+
+.padding-up-m {
+    padding-top: 20px !important;
+}
+
+.padding-up-s {
+    padding-top: 10px !important;
+}
+
+.padding-up-xs {
+    padding-top: 5px !important;
+}
+
+/*  */
+.padding-down-xxl {
+    padding-bottom: 50px !important;
+}
+
+.padding-down-xl {
+    padding-bottom: 40px !important;
+}
+
+.padding-down-l {
+    padding-bottom: 30px !important;
+}
+
+.padding-down-m {
+    padding-bottom: 20px !important;
+}
+
+.padding-down-s {
+    padding-bottom: 10px !important;
+}
+
+.padding-down-xs {
+    padding-bottom: 5px !important;
+}
+
+
+
+.space-down-xxl {
+    margin-bottom: 50px !important;
+}
+
+.space-down-xl {
+    margin-bottom: 40px !important;
+}
+
+.space-down-l {
+    margin-bottom: 30px !important;
+}
+
+.space-down-m {
+    margin-bottom: 20px !important;
+}
+
+.space-down-s {
+    margin-bottom: 10px !important;
+}
+
+
+.space-left-xxl {
+    margin-left: 50px !important;
+}
+
+.space-left-xl {
+    margin-left: 40px !important;
+}
+
+.space-left-l {
+    margin-left: 30px !important;
+}
+
+.space-left-m {
+    margin-left: 20px !important;
+}
+
+.space-left-s {
+    margin-left: 10px !important;
+}
+
+.font-lg {
+    font-size: var(--large) !important;
+}
+
+.font-sm {
+    font-size: var(--small) !important;
+}
+
+
+
+/* Alignments */
+.center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+label {
+    letter-spacing: normal !important;
+    transition: all 0.3s ease-in-out 0s !important;
+}
+
+label:hover,
+label:focus {
+    letter-spacing: 0.5px !important;
+}
+
+
+input,
+textarea,
+option,
+select {
+    transition: all 0.6s ease-in-out 0s !important;
+}
+
+input:hover,
+textarea:hover,
+option:hover,
+select:hover {
+    border-bottom: 2px solid var(--red) !important;
+}
+
+.btn-danger {
+    transition: all 0.6s ease-in-out 0s !important;
+    background-color: var(--red);
+    color: var(--white);
+    border-radius: 3px;
+}
+
+.btn-danger:hover {
+    background-color: var(--red-hover) !important;
+    color: var(--white);
+    border-radius: 3px;
+}
+
+.page-item.active .page-link {
+    border-color: var(--red) !important;
+    background-color: var(--red) !important;
+}
+
+.outline-btn {
+    transition: all 0.3s ease-in-out 0s !important;
+}
+
+.outline-btn:hover,
+.outline-btn:focus {
+    color: var(--white) !important;
+    background: var(--red) !important;
+}
+
+li {
+    list-style-type: none !important;
+}
+
+/* CUSTOM CHECKBOX */
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: var(--red) !important;
+    background-color: var(--red) !important;
+}
+
+
+
+
+/* Font */
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Black'), local("Montserrat-Black"), url("../fonts/black.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Black-Italic';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Black Italic'), local("Montserrat-Black-Italic"), url("../fonts/black_italic.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Bold'), local("Montserrat-Bold"), url("../fonts/bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold-Italic';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Bold Italic'), local("Montserrat-Bold-Italic"), url("../fonts/bold_italic.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Extra-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Extra Bold'), local("Montserrat-Extra-Bold"), url("../fonts/extra_bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Extra-Light';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Extra Light'), local("Montserrat-Extra-Light"), url("../fonts/extra_light.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Light'), local("Montserrat-Light"), url("../fonts/light.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Medium'), local("Montserrat-Medium"), url("../fonts/medium.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Regular'), local("Montserrat-Regular"), url("../fonts/regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Semi-Bold';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Semi Bold'), local("Montserrat-Semi-Bold"), url("../fonts/semi_bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    font-weight: normal;
+    font-style: normal;
+    src: local('Montserrat Thin'), local("Montserrat-Thin"), url("../fonts/thin.ttf") format('ttf');
+}
+
+/*Added By Md. Sayed Ahammed*/
+/* .modal-header {
+    border-bottom: none !important;
+}
+
+.btn-large {
+    width: 150px !important;
+    border-radius: 3px !important;
+}
+*/
+
+.outline-btn {
+    border: 1px solid var(--red) !important;
+    color: var(--red);
+}
+
+.outline-btn:hover {
+    border: 1px solid var(--red-hover) !important;
+    color: var(--red);
+}
+
+.anchor-pointer {
+    color: var(--black);
+    cursor: pointer;
+}
+
+.anchor-pointer:hover {
+    color: var(--black);
+    cursor: pointer;
+}
+
+.table-black {
+    color: var(--black);
+}

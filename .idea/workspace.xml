@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb061273-7f44-4369-b6c1-69c82deb9263" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k5Aja4GKSVpRyGuNZ1GdBaoQaN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/auth" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Office\aisoc-beta\html\auth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Office\aisoc-beta\html\auth" />
+      <recent name="D:\Office\aisoc-beta\dist\css\icons" />
+      <recent name="D:\Office\aisoc-beta\html\users" />
+      <recent name="D:\Office\aisoc-beta\html" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb061273-7f44-4369-b6c1-69c82deb9263" name="Default Changelist" comment="" />
+      <created>1604980214405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604980214405</updated>
+      <workItem from="1604980215432" duration="985000" />
+      <workItem from="1604996315876" duration="629000" />
+      <workItem from="1605000728451" duration="3672000" />
+      <workItem from="1605068475365" duration="645000" />
+      <workItem from="1605112102940" duration="216000" />
+      <workItem from="1605174124567" duration="17043000" />
+      <workItem from="1605418911536" duration="1159000" />
+      <workItem from="1605443846860" duration="844000" />
+      <workItem from="1605451375785" duration="820000" />
+      <workItem from="1605520925539" duration="2109000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1605174276420">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605174276420" />
+  </component>
+</project>
